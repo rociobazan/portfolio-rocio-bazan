@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocío Bazán | Portfolio</title>
+    <link rel="icon" href="./img/1f469-1f4bb.ico" /> <!-- colocar icono -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="wellcome w--opacity">
+
+    <!-- barra de anvegación -->
+    <nav class="w-100 position-fixed">
+        <div class="contenedor__principal nav white-color d-flex justify-content-between px-4 py-3 m-auto">
+            <div class="nav__name">
+                <span class="fs-6 fw-bold text-white">Rocío <span class="text-warning">Bazán</span></span>
+            </div>
+
+            <div class="nav_icon">
+                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white"></i>
+            </div>
+
+            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light">
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#inicio">Inicio</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#acercade">Acerca de mi</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#cursos">Cursos</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#experiencia">Proyectos</a>
+                <a class="nav__enlace text-light text-decoration-none" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- vista principal (inicio) -->
+    <section id="inicio" class="section container-fluid bg-dark d-block">
+        <div class="section__flex d-flex flex-column justify-content-center align-items-center">
+            <span class="text-white d-block text-center fw-bold fs-5">Hola, <span
+                    class="text-warning fw-normal">Soy</span></span>
+            <span class="text-warning d-block text-center fw-bold fs-1">Rocío Bazán</span>
+            <span class="text-white d-block text-center fw-bold fs-5">Estudiante de Analista de Sistemas - Desarrolladora .NET</span>
+
+
+            <div class="section__links pt-4 w-100 d-flex justify-content-center">
+                <a class="me-3 text-decoration-none text-white fs-1" href="https://github.com/rociobazan" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github icon_social"></i>
+                </a>
+                <a class="text-decoration-none text-white fs-1" href="https://www.linkedin.com/in/carlarociobazan/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin icon_social"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- acerca de -->
+    <section class="acercade container-fluid" id="acercade">
+        <div class="contenedor__principal m-auto  text-white px-3">
+
+            <div class="row">
+                <div class="col-lg">
+                    <h2 class="text-center text-lg-start fw-bold my-5">Acerca de mi</h2>
+
+                    <p class="text-center text-lg-start">
+                        Hola! 🙂 Soy Rocío. Soy Técnica Superior en Administración de Empresas, cursando actualmente la carrera Analista de Sistemas y me encuentro en búsqueda de mi primer trabajo como desarrolladora👩🏽‍💻.
+
+                    </p>
+                    <p class="text-center text-lg-start">
+                        📚He realizado cursos de fundamentos de la programación, lenguaje C# con .Net framework y DB Sql Server. También en el ámbito web con ASP.Net, HTML5, CSS3, Javascript y Bootstrap. 
+                    </p>
+                    <p class="text-center text-lg-start">
+                        🎯Mi objetivo es poder insertarme en el área IT para fortalecer los conocimientos adquiridos, pero sobre todo poder seguir aprendiendo más sobre éstas, y más tecnologías.
+                    </p>
+                    <p>
+                        🌺Soy una persona dedicada, detallista y responsable. Me gusta mucho aprender 🤓, y cumplir objetivos siempre dando lo mejor de mi 💯.
+                    </p>
+                    <a id="asd" class="contacto btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                        href="#contacto">Contactame</a>
+
+                </div>
+                <div class="col-lg">
+                    <img class="img__perfil me d-block w-75 m-auto rounded-circle py-5" src="./img/perfil.jpeg" alt="imagen de perfil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cursos -->
+    <section id="cursos" class="cursos container-fluid">
+        <div class="contenedor__principal m-auto text-white px-3">
+            <div class="row">
+                <div class="d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="col-lg">
+                        <h2 class="ext-center text-lg-start fw-bold my-5">Cursos</h2>
+
+                        <p class="text-center text-lg-start">
+                            <ul>
+                                <li>Curso de Bases de Datos - Maxiprograma.com - Julio 2024 - Agosto 2024 <span><a href="https://drive.google.com/file/d/14CY6HBO5wb4jsAGzBg_o04uklLcEpALL/view" target="_blank">Ver Programa</span></a></li>
+                                <li>Programación C# Nivel 3: Web ASP.NET - Maxiprograma.com - Novienmbre 2023 - Febrero 2024 <span><a href="https://drive.google.com/file/d/16sTkD0qaHWPNmcjN9LqRN0fUG2PsitXz/view" target="_blank">Ver Programa</span></a></li>
+                                <li>Programación C# Nivel 2: POO + .Net + SQL - Maxiprograma.com - Agosto 2023 - Octubre 2023 <span><a href="https://drive.google.com/file/d/1It68wtz-WqlGzKiWY9vwbI_0GgqfJew9/view" target="_blank">Ver Programa</span></a></li>
+                                <li>Programación C# Nivel 1 - Maxiprograma.com - Agosto 2023 <span><a href="https://drive.google.com/file/d/1O0LQTA7g-f9ZKo7U7alLqfJNK1cTEc71/view" target="_blank">Ver Programa</span></a></li>
+                                <li>Fundamentos de la programación - Maxiprograma.com - Julio 2023</li>
+                                <li>Oracle Next Education (ONE) - Oracle + Alura latam  (Abril 2023- Junio 2023)</li>
+                                
+                            </ul>
+                        </p>
+
+                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                            href="#experiencia">Proyectos</a>
+                    </div>
+                    <div class="col-lg my-5">
+                        <div class="d-flex justify-content-center px-4">
+                            <ul class="me-5">
+                                <li>C#</li>
+                                <li>.NET</li>
+                                <li>SQL Server</li>
+                                <li>ASP.NET</li>
+                            </ul>
+
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Bootstrap</li>
+                                <li>Github</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experiencia -->
+    <section id="experiencia" class="experiencia container-fluid mb-5">
+        <div class="contenedor__principal m-auto text-white px-3">
+
+            <div class="row">
+                <div class="col">
+                    <h2 class=" text-center fw-bold my-5">Proyectos</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3">
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/W1.jpg" alt="Gestor de articulos web">
+                        </div>
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+                        <span class="m-0 fw-bold">Gestor de artículos web</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#gestorWeb"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/G1.jpg" alt="Gestor de inventario">
+                        </div>
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+                        <span class="m-0 fw-bold">Gestor de inventario</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#gestorInventario"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/appweb.png" alt="pokedex-web">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Aplicación web - Pokemon</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#pokedexWeb"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div> 
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/img2.jpeg" alt="app-pokedex">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Aplicación de escritorio - Pokedex</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#pokedexEscritorio"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- svg waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1f1f1f" fill-opacity="1"
+            d="M0,96L120,122.7C240,149,480,203,720,218.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+
+
+    <!-- footer -->
+    <footer class="text-white footer container-fluid" id="contacto">
+        <div class="contenedor__principal m-auto px-3">
+            <div class="row">
+                <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center">
+                    <div class="footer__name pb-5">
+                        <span class="d-block fs-4 fw-bold text-center text-md-start">Rocío <span
+                                class="text-warning">Bazán</span></span>
+                        <span class="text-white d-block text-center text-md-start fs-6">Estudiante de Analista de Sistemas - Desarrolladora .NET</span>
+                    </div>
+
+                    <div class="pb-5">
+                        <!-- <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            000 000 0000</span> -->
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            roobazan98@hotmail.com.ar</span>
+                    </div>
+
+                    <div class="text-center pb-5">
+                        <a class="me-3 text-decoration-none text-white" href="https://github.com/rociobazan" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-github fs-3"></i>
+                        </a>
+                        <a class="me-3 text-decoration-none text-white" href="https://www.linkedin.com/in/carlarociobazan/" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin fs-3"></i>
+                        </a>
+                        <a class="text-decoration-none text-white" href="./files/CV - Rocío Bazán.pdf"
+                            onclick="return confirm('¿Desea descargar el CV?')" target="_blank"
+                            rel="noopener noreferrer" download>
+                            <i class="fa-solid fa-sheet-plastic fs-3"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+
+
+    <!-- EXP-->
+    <div class="modal fade" id="gestorWeb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Gestor de artículos web</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <p>
+                        Aplicación web para comercios permite a los usuarios explorar y gestionar un catálogo de productos. Basada en ASP.NET, Bootstrap y SQL Server, y subida a un hosting, ofrece una experiencia amigable y atractiva.
+                    </p>
+                    <p>
+                        Funcionalidades principales:
+                    </p>
+                    <p>
+                        Home con Catálogo de Productos y Filtros: Página de inicio con catálogo completo, permitiendo filtros por descripción, marca y categoría.
+                    </p>    
+                    <p>
+                        Pantalla de Detalle de Producto: Información detallada de cada producto, incluyendo imágenes, descripciones y precios.
+                    </p>
+                    <p>
+                        Pantalla de Login y Área de Administración: Sistema de autenticación para la gestión de productos (agregar, modificar y eliminar).
+                    </p>    
+                    <p>
+                        Gestión de Productos: Búsqueda, listado en formato de grilla y administración de artículos (código, nombre, descripción, marca, categoría, imagen y precio).
+                    </p>
+                    <p>
+                        Registro de Clientes y Gestión de Favoritos: Los usuarios pueden registrarse, gestionar su perfil y mantener una lista de productos favoritos.
+                    </p> 
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/W2.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/W3.jpg" class="d-block h-100 m-auto " alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/W4.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/W5.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div> 
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/rociobazan/tp-final-nivel3-bazan-rocio" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>.Net Framework</li>
+                        <li>WebForms</li>
+                        <li>SQL Server</li>
+                        <li>Bootstrap</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="gestorInventario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Gestor de inventario</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <p>
+                        Aplicación de escritorio genérica para la administración de artículos. Sus funcionalidades son: listado de artículos, búsqueda mediante distintos criterios, agregar, modificar, eliminar y ver detalles de los artículos. También posee la opción de agregar y eliminar tanto marcas como categorías de productos. Toda la información está persistida en una base de datos ya existente.
+                        La app posee arquitectura en capas, manejo de excepciones y validaciones.
+                    </p>
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/G2.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/G3.jpg" class="d-block h-100 m-auto " alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/G4.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/G5.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div> 
+                                <div class="carousel-item h-100">
+                                    <img src="./img/G6.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/G7.jpg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div> 
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/rociobazan/Gestor-de-articulos" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>.Net Framework</li>
+                        <li>WinForms</li>
+                        <li>SQL Server</li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="modal fade" id="pokedexWeb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pokedex Web</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        Pokedex es una aplicación web desarrollada en C# .Net Framework, estilos de Bootstrap y con conexión a base de datos SQL. Nos permite ver, agregar, modificar y eliminar nuevos Pokémon, mediante el registro de nuestro usuario (con mail y contraseña) y posterior inicio de sesión. Tiene un filtro de búsqueda rápida como así también la posibilidad de una búsqueda avanzada. Podemos editar los datos de nuestro perfil, e inclusive subir una imagen como nuestro avatar. El proyecto posee arquitectura en capas.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/appweb.png" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/appweb2.png" class="d-block h-100 m-auto " alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/appweb3.png" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div> 
+                                
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/rociobazan/ejemplos-asp-webforms" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>.Net Framework</li>
+                        <li>ASP.NET</li>
+                        <li>SQL</li>
+                        <li>Bootstrap</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="modal fade" id="pokedexEscritorio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Pokedex de escritorio</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        Desarrollada en C# .Net framework, Pokedex es una aplicación de escritorio construída con arquitectura en capas, POO y conexiones a Base de Datos. Permite el registro de los famosos Pokemons, agregar nuevos personajes incorporando sus datos, y una imagen que puede ser asignada vía url o subida localmente. Permite también modificar, eliminar y filtrar pokemons por filtro rápido o criterios más específicos.
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/img1.jpeg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/img2.jpeg" class="d-block h-100 m-auto " alt="imagen-de-app">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/img3.jpeg" class="d-block h-100 m-auto" alt="imagen-de-app">
+                                </div> 
+                                
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="https://github.com/rociobazan/pokedexx" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>C#</li>
+                        <li>.Net framework</li>
+                        <li>SQL Server</li>
+                      
+                    </ul>
+
+                    
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- mis scripts -->
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
